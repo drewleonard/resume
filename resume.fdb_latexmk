@@ -1,9 +1,9 @@
 # Fdb version 3
-["xdvipdfmx"] 1528658169 "resume.xdv" "resume.pdf" "resume" 1528658169
-  "resume.xdv" 1528658169 25996 30d8862102c3c1e8d7adda7b16558951 "xelatex"
+["xdvipdfmx"] 1528670977 "resume.xdv" "resume.pdf" "resume" 1528670977
+  "resume.xdv" 1528670977 34104 4511388119cc16d641421dfcd4482065 "xelatex"
   (generated)
   "resume.pdf"
-["xelatex"] 1528658168 "resume.tex" "resume.xdv" "resume" 1528658169
+["xelatex"] 1528670976 "resume.tex" "resume.xdv" "resume" 1528670977
   "/usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr10.tfm" 1480098701 1296 45809c5a464d5f32c8f98ba97c1bb47f ""
   "/usr/local/texlive/2018/texmf-dist/tex/generic/ifxetex/ifxetex.sty" 1480098815 1458 43ab4710dc82f3edeabecd0d099626b2 ""
@@ -33,9 +33,9 @@
   "/usr/local/texlive/2018/texmf-dist/web2c/texmf.cnf" 1522066949 33362 cf75436e19743e94a92a6b1b9183c434 ""
   "/usr/local/texlive/2018/texmf-var/web2c/xetex/xelatex.fmt" 1523934532 3731946 97a69080a287fbc922a3cd699c6fd124 ""
   "/usr/local/texlive/2018/texmf.cnf" 1523934483 577 0b39adfd7c93507ff20c9c14c2f1a33f ""
-  "resume.aux" 1528658169 8 a94a2480d3289e625eea47cd1b285758 ""
-  "resume.tex" 1528658090 6474 ff9e38d813dcacda360aa2538ff6720c ""
+  "resume.aux" 1528670977 8 a94a2480d3289e625eea47cd1b285758 ""
+  "resume.tex" 1528670975 8473 ad29cf3600ad21192e8e8e0c1fbe85bb ""
   (generated)
-  "resume.aux"
   "resume.log"
+  "resume.aux"
   "resume.xdv"
