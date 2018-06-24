@@ -1,11 +1,20 @@
 # Fdb version 3
-["xdvipdfmx"] 1528772201 "resume.xdv" "resume.pdf" "resume" 1528772201
-  "resume.xdv" 1528772201 34796 81e8dba83622e6581601a6a5bda118bd "xelatex"
+["xdvipdfmx"] 1529813491 "resume.xdv" "resume.pdf" "resume" 1529813492
+  "resume.xdv" 1529813491 35580 01f20b28feb1525fea18bd0498b73960 "xelatex"
   (generated)
   "resume.pdf"
-["xelatex"] 1528772200 "resume.tex" "resume.xdv" "resume" 1528772201
+["xelatex"] 1529813490 "resume.tex" "resume.xdv" "resume" 1529813492
   "/usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
+  "/usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm" 1480098701 1512 f21f83efb36853c0b70002322c1ab3ad ""
+  "/usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmmi9.tfm" 1480098701 1524 d89e2d087a9828407a196f428428ef4a ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr10.tfm" 1480098701 1296 45809c5a464d5f32c8f98ba97c1bb47f ""
+  "/usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr6.tfm" 1480098701 1300 b62933e007d01cfd073f79b963c01526 ""
+  "/usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr9.tfm" 1480098701 1292 6b21b9c2c7bebb38aa2273f7ca0fb3af ""
+  "/usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm" 1480098701 1116 933a60c408fc0a863a92debe84b2d294 ""
+  "/usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmsy9.tfm" 1480098701 1116 25a7bf822c58caf309a702ef79f4afbb ""
+  "/usr/local/texlive/2018/texmf-dist/fonts/tfm/public/latex-fonts/lasy5.tfm" 1480098711 520 d082ac03a1087bc1ec2a06e24a9f68c0 ""
+  "/usr/local/texlive/2018/texmf-dist/fonts/tfm/public/latex-fonts/lasy6.tfm" 1480098711 520 4889cce2180234b97cad636b6039c722 ""
+  "/usr/local/texlive/2018/texmf-dist/fonts/tfm/public/latex-fonts/lasy9.tfm" 1480098711 520 1cc7cc05f4d7bae5c23bf7516f88fa52 ""
   "/usr/local/texlive/2018/texmf-dist/tex/generic/ifxetex/ifxetex.sty" 1480098815 1458 43ab4710dc82f3edeabecd0d099626b2 ""
   "/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifpdf.sty" 1490564930 1251 d170e11a3246c3392bc7f59595af42cb ""
   "/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifvtex.sty" 1480098815 6797 90b7f83b0ad46826bc16058b1e3d48df ""
@@ -17,6 +26,7 @@
   "/usr/local/texlive/2018/texmf-dist/tex/latex/base/latexsym.sty" 1523050425 2856 7730103c7f3589c6c9d963ace57a7c18 ""
   "/usr/local/texlive/2018/texmf-dist/tex/latex/base/size10.clo" 1523050425 8294 b0f177401f895563eb19304d2389582d ""
   "/usr/local/texlive/2018/texmf-dist/tex/latex/base/tuenc.def" 1523050425 27168 42abd59d42cbe631d7724c2ff661b469 ""
+  "/usr/local/texlive/2018/texmf-dist/tex/latex/base/ulasy.fd" 1523050425 2236 d19fc9d1775d819862989c760289e5a5 ""
   "/usr/local/texlive/2018/texmf-dist/tex/latex/enumitem/enumitem.sty" 1480098827 42666 6fa770e3485520a6a5f2ea7d259c8f8d ""
   "/usr/local/texlive/2018/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty" 1510271071 151300 0434700f620261593a9f1523a477a14f ""
   "/usr/local/texlive/2018/texmf-dist/tex/latex/fontspec/fontspec.cfg" 1509919423 550 e2d151424a668bd78dad72056f87216f ""
@@ -34,9 +44,9 @@
   "/usr/local/texlive/2018/texmf-dist/web2c/texmf.cnf" 1522066949 33362 cf75436e19743e94a92a6b1b9183c434 ""
   "/usr/local/texlive/2018/texmf-var/web2c/xetex/xelatex.fmt" 1523934532 3731946 97a69080a287fbc922a3cd699c6fd124 ""
   "/usr/local/texlive/2018/texmf.cnf" 1523934483 577 0b39adfd7c93507ff20c9c14c2f1a33f ""
-  "resume.aux" 1528772201 8 a94a2480d3289e625eea47cd1b285758 ""
-  "resume.tex" 1528772193 9825 494884a6674d7b99f617974fb1c84052 ""
+  "resume.aux" 1529813491 8 a94a2480d3289e625eea47cd1b285758 ""
+  "resume.tex" 1529813490 9816 de7cb49434b6bd478ab01d186c5392a8 ""
   (generated)
-  "resume.log"
   "resume.aux"
+  "resume.log"
   "resume.xdv"
