@@ -5,7 +5,7 @@
 \newcommand{\mainMarginBottom}{\vspace*{1.5pt}}
 \newcommand{\newLine}{\\}
 \newcommand{\doubleColumnGap}{\hspace{4mm}}
-\newcommand{\sectionMarginTopBottom}{\vspace*{7.5pt}}
+\newcommand{\sectionMarginTopBottom}{\vspace*{9pt}}
 \newcommand{\sectionMarginBetweenRemove}{\vspace{-5ex}}
 \newcommand{\sectionMarginBetweenAdd}{\vspace{20pt}}
 \newcommand{\withinSectionMarginBetween}{\vspace{-3ex}}
@@ -89,9 +89,9 @@
 \begin{document}
 
 \begin{minipage}[b]{0.70\linewidth}
-  {\fontsize{35}{42}\selectfont \textsc{Drew N. Leonard}}
+  \hspace*{9pt}{\fontsize{35}{42}\selectfont \textsc{Drew N. Leonard}}
 \end{minipage}
-\begin{minipage}[b]{0.25\linewidth}
+\begin{minipage}[b]{0.29\linewidth}
   \begin{flushright}
     \begin{small}
       Dartmouth College
@@ -171,8 +171,9 @@
 
 \sectionMarginBetweenRemove{}
 \sectionMarginBetweenAdd{}
-% \vspace*{25pt}
-\hspace*{14pt}\myul{4pt}{1.25pt}{0.85}{\fontsize{20}{24}\selectfont Experience}\hspace*{15pt}\xhrulefill[height=-4.5pt,thickness=1.25pt]
+
+\hspace*{12pt}\textsc{\fontsize{20}{24}\selectfont Experience}\hspace*{14pt}\hrulefill
+% \hspace*{14pt}\myul{4pt}{1.25pt}{0.85}{\fontsize{20}{24}\selectfont Experience}\hspace*{15pt}\xhrulefill[height=-4.5pt,thickness=1.25pt]
 \sectionMarginTopBottom{}
 
 % Experience item: OfferUp
@@ -412,7 +413,7 @@
   \begin{small}
     \begin{spacing}\mainLineSpacing{}
       \begin{flushleft}
-        CSS3, HTML5, Java, JavaScript, NoSQL, Python, R, SQL
+        Java, JavaScript, Python, SQL, R
       \end{flushleft}
     \end{spacing}
   \end{small}
