@@ -2,6 +2,18 @@
 \documentclass[a4paper,9pt]{article}
 \pagenumbering{gobble}
 
+\newcommand{\mainMarginBottom}{\vspace*{1.5pt}}
+\newcommand{\newLine}{\\}
+\newcommand{\doubleColumnGap}{\hspace{4mm}}
+\newcommand{\sectionMarginTopBottom}{\vspace*{7.5pt}}
+\newcommand{\sectionMarginBetweenRemove}{\vspace{-5ex}}
+\newcommand{\sectionMarginBetweenAdd}{\vspace{20pt}}
+\newcommand{\withinSectionMarginBetween}{\vspace{-3ex}}
+\newcommand{\mainLineSpacing}{0.95}
+\newcommand{\titleMarginBelow}{\vspace*{2ex}}
+
+\def\hrulefill{\leavevmode\leaders\hrule height 1.75pt\hfill\kern0pt}
+
 \usepackage{fontspec} 
 \setmainfont[
  BoldFont={Calluna_Bold.otf},
@@ -27,47 +39,52 @@
 	\begin{flushright}
 		\begin{small}
 			Dartmouth College
-			\\[0.25ex]
+			\newLine{}
+			\mainMarginBottom{}
 			Hanover, NH 03755
-			\\[0.25ex]
+			\newLine{}
+			\mainMarginBottom{}
 			(+1) 727-667-2749
-			\\[0.25ex]
+			\newLine{}
+			\mainMarginBottom{}
 			dnl.19@dartmouth.edu
-			\\[0.25ex]
 		\end{small}
 	\end{flushright}
 \end{minipage}
 
-\vspace*{25pt}
+\titleMarginBelow{}
+\sectionMarginBetweenAdd{}
+
 \begin{Large}
 	\textsc{Education}
 \end{Large}
-\vspace*{5pt}
+\sectionMarginTopBottom{}
 \hrule
+\sectionMarginTopBottom{}
 
-\vspace{2ex}	
 \begin{minipage}[t]{0.20\linewidth}
 	\begin{small}
-		\begin{spacing}{1.00}
+		\begin{spacing}\mainLineSpacing{}
 			\begin{flushright}
 				Sept. 2015--June 2019
-				\\*
-				\vspace*{2.5pt}
+				\newLine{}
+				\mainMarginBottom{}
 				Hanover, NH
 			\end{flushright}
 		\end{spacing}
 	\end{small}
 \end{minipage}
-\hspace{4mm}
+\doubleColumnGap{}
 \begin{minipage}[t]{0.75\linewidth}
 	\begin{small}
-		\begin{spacing}{1.00}
+		\begin{spacing}\mainLineSpacing{}
 			\begin{flushleft}
 				\textbf{Dartmouth College} --- B.A. in Government and Computer Science, GPA: 3.86/4.00
-				\\*
-				\vspace*{2.5pt} \textit{\textbf{Achievements:}} Top 5\% of Class (Rufus Choate Scholar), War and Peace Fellowship,\\ Presidential Research Scholarship, Class of 1921 Ellwood H. Fisher Fund Recipient  
-				\\*
-				\vspace*{2.5pt}
+				\newLine{}
+				\mainMarginBottom{}
+				\textit{\textbf{Achievements:}} Top 5\% of Class (Rufus Choate Scholar), War and Peace Fellowship,\\ Presidential Research Scholarship, Class of 1921 Ellwood H. Fisher Fund Recipient  
+				\newLine{}
+				\mainMarginBottom{}
 				\textit{\textbf{Coursework:}} Data Structures, Object-Oriented Programming, Intermediate Statistics,
                 \\ Natural Language Processing, Conventional Military Analysis, Foreign Policy Analysis
 			\end{flushleft}
@@ -75,23 +92,24 @@
 	\end{small}
 \end{minipage}
 
-\vspace{-3ex}
+\withinSectionMarginBetween{}
+
 \begin{minipage}[t]{0.20\linewidth}
 	\begin{small}
-		\begin{spacing}{1.00}
+		\begin{spacing}\mainLineSpacing{}
 			\begin{flushright}
 				Sept. 2017--Dec. 2017
-				\\*
-				\vspace*{2.5pt}
+				\newLine{}
+				\mainMarginBottom{}
 				London, England
 			\end{flushright}
 		\end{spacing}
 	\end{small}
 \end{minipage}
-\hspace{4mm}
+\doubleColumnGap{}
 \begin{minipage}[t]{0.75\linewidth}
 	\begin{small}
-		\begin{spacing}{1.00}
+		\begin{spacing}\mainLineSpacing{}
 			\begin{flushleft}
 				\textbf{London School of Economics} --- Custom Programme, International Relations
 			\end{flushleft}
@@ -99,62 +117,65 @@
 	\end{small}
 \end{minipage}
 
-\vspace{-6ex}
-\vspace*{25pt}
+\sectionMarginBetweenRemove{}
+\sectionMarginBetweenAdd{}
+% \vspace*{25pt}
 
-\begin{Large}
-	\textsc{Experience}
-\end{Large}
-\vspace*{5pt}
-\hrule
-\vspace*{5pt}
+% \begin{localsize}{35}
+	\hspace*{10pt}\textsc{\fontsize{20}{24}\selectfont Experience}\hspace*{14pt}\hrulefill
+% \end{localsize}
+% \sectionMarginTopBottom{}
+% \hrule
+\sectionMarginTopBottom{}
 
 % Experience item: OfferUp
-\vspace{1ex}	
+% \vspace{1ex}	
 \begin{minipage}[t]{0.20\linewidth}
 	\begin{small}
-		\begin{spacing}{1.00}
+		\begin{spacing}\mainLineSpacing{}
 			\begin{flushright}
 				June 2018--\textit{Present}
-				\\*
-				\vspace*{2.5pt}
+				\newLine{}
+				\mainMarginBottom{}
 				Seattle, WA
 			\end{flushright}
 		\end{spacing}
 	\end{small}
 \end{minipage}
-\hspace{4mm}
+\doubleColumnGap{}
 \begin{minipage}[t]{0.75\linewidth}
 	\begin{small}
-		\begin{spacing}{1.00}
+		\begin{spacing}\mainLineSpacing{}
 			\begin{flushleft}
-				\textbf{OfferUp} --- Data Science Intern, Trust \& Safety
+				\textbf{OfferUp} --- Software Engineering Intern
 			\end{flushleft}
 		\end{spacing}
 	\end{small}
 \end{minipage}
 
+\withinSectionMarginBetween{}
+
 % Experience item: Uber
-\vspace{-3ex}
 \begin{minipage}[t]{0.20\linewidth}
 	\begin{small}
-		\begin{spacing}{1.00}
+		\begin{spacing}\mainLineSpacing{}
 			\begin{flushright}
 				Jan. 2018--Mar. 2018
-				\\*
-				\vspace*{2.5pt}
+				\newLine{}
+				\mainMarginBottom{}
 				San Francisco, CA
 			\end{flushright}
 		\end{spacing}
 	\end{small}
 \end{minipage}
-\hspace{4mm}
+\doubleColumnGap{}
 \begin{minipage}[t]{0.75\linewidth}
 	\begin{small}
-		\begin{spacing}{1.00}
+		\begin{spacing}\mainLineSpacing{}
 			\begin{flushleft}
-				\textbf{Uber} --- Software Engineering Intern, Trust \& Safety
-				\begin{itemize}[itemsep=0pt,topsep=2.5pt,leftmargin=*]
+				\textbf{Uber} --- Software Engineering Intern
+				\mainMarginBottom{}
+				\begin{itemize}[itemsep=0pt,topsep=0pt,leftmargin=*]
 					\item Built database infrastructure tools that collect, analyze, and disseminate critical intelligence in real-time, enabling the Security Team to monitor and mitigate global risks to Uber
 					\item Developed and implemented benchmark metrics to measure Security Team compliance rates, raising reporting and compliance of Global Travel and Global Events programs to above 95\% from sub-30\%
 					\item Identified and filled other needs across Security, such as SQL querybuilding, documenting code, KPI training, \& map-building
@@ -164,27 +185,29 @@
 	\end{small}
 \end{minipage}
 
+\withinSectionMarginBetween{}
+
 % Experience item: Dartmouth Government Department
-\vspace{-3ex}
 \begin{minipage}[t]{0.20\linewidth}
 	\begin{small}
-		\begin{spacing}{1.00}
+		\begin{spacing}\mainLineSpacing{}
 			\begin{flushright}
 				June 2017--\textit{Present}
-				\\*
-				\vspace*{2.5pt}
+				\newLine{}
+				\mainMarginBottom{}
 				Hanover, NH
 			\end{flushright}
 		\end{spacing}
 	\end{small}
 \end{minipage}
-\hspace{4mm}
+\doubleColumnGap{}
 \begin{minipage}[t]{0.75\linewidth}
 	\begin{small}
-		\begin{spacing}{1.00}
+		\begin{spacing}\mainLineSpacing{}
 			\begin{flushleft}
 				\textbf{Dartmouth Government Department} --- Research Assistant (Presidential Scholar)
-				\begin{itemize}[itemsep=0pt,topsep=2.5pt,leftmargin=*]
+				\mainMarginBottom{}
+				\begin{itemize}[itemsep=0pt,topsep=0pt,leftmargin=*]
 					\item Create interactive dashboards that allow users to explore concepts and data central to the Early Warning Project,
 					      an initiative to identify countries at risk of state-led mass killings
 					\item Research international relations topics central to the Early Warning Project to inform and guide topics covered in dashboards, using online and open-source information (e.g., policy journals \& memorandums)
@@ -195,27 +218,29 @@
 	\end{small}
 \end{minipage}
 
+\withinSectionMarginBetween{}
+
 % Experience item: Council on Foreign Relations
-\vspace{-3ex}
 \begin{minipage}[t]{0.20\linewidth}
 	\begin{small}
-		\begin{spacing}{1.00}
+		\begin{spacing}\mainLineSpacing{}
 			\begin{flushright}
 				June 2016--Aug. 2016
-				\\*
-				\vspace*{2.5pt}
+				\newLine{}
+				\mainMarginBottom{}
 				New York, NY
 			\end{flushright}
 		\end{spacing}
 	\end{small}
 \end{minipage}
-\hspace{4mm}
+\doubleColumnGap{}
 \begin{minipage}[t]{0.75\linewidth}
 	\begin{small}
-		\begin{spacing}{1.00}
+		\begin{spacing}\mainLineSpacing{}
 			\begin{flushleft}
 				\textbf{Council on Foreign Relations} --- Research Intern, Greenberg Center for Geoeconomic Studies
-				\begin{itemize}[itemsep=0pt,topsep=2.5pt,leftmargin=*]
+				\mainMarginBottom{}
+				\begin{itemize}[itemsep=0pt,topsep=0pt,leftmargin=*]
 					\item Prepared reports and conducted extensive research on political economy and foreign policy topics between 1947 and 1949 for narrative of the Marshall Plan (The Marshall Plan: Dawn of the Cold War)
 					\item Coordinated and ran day-long Foreign Affairs LIVE event, "Mexico's Urban Future," that convened policymakers, business leaders, and academics
 					\item Role-played as the U.S. Treasury Secretary in simulated National Security Council meeting in session of CFR's Model Diplomacy Program, to advise on program
@@ -225,37 +250,39 @@
 	\end{small}
 \end{minipage}
 
-\vspace{-6ex}
-\vspace*{25pt}
+\sectionMarginBetweenRemove{}
+\sectionMarginBetweenAdd{}
+% \vspace*{25pt}
 
 \begin{Large}
 	\textsc{Leadership}
 \end{Large}
-\vspace*{5pt}
+\sectionMarginTopBottom{}
 \hrule
-\vspace*{5pt}
+\sectionMarginTopBottom{}
 
 % Experience item: World Outlook
-\vspace{1ex}	
+% \vspace{1ex}	
 \begin{minipage}[t]{0.20\linewidth}
 	\begin{small}
-		\begin{spacing}{1.00}
+		\begin{spacing}\mainLineSpacing{}
 			\begin{flushright}
 				Mar. 2017--\textit{Present}
-				\\*
-				\vspace*{2.5pt}
+				\newLine{}
+				\mainMarginBottom{}
 				Hanover, NH
 			\end{flushright}
 		\end{spacing}
 	\end{small}
 \end{minipage}
-\hspace{4mm}
+\doubleColumnGap{}
 \begin{minipage}[t]{0.75\linewidth}
 	\begin{small}
-		\begin{spacing}{1.00}
+		\begin{spacing}\mainLineSpacing{}
 			\begin{flushleft}
 				\textbf{War and Peace Fellowship Program} --- Fellow
-                \begin{itemize}[itemsep=0pt,topsep=2.5pt,leftmargin=*]
+				\mainMarginBottom{}
+                \begin{itemize}[itemsep=0pt,topsep=0pt,leftmargin=*]
 					\item Organize and participate in events with government officials and academics working on war and peace issues as
 part of highly-selective program
 					\item Meet with experts in different fields to discuss and receive advice on opportunities related to war and peace issues,
@@ -266,26 +293,28 @@ with culminating event in Washington, D.C.
 	\end{small}
 \end{minipage}
 
-\vspace{-3ex}
+\withinSectionMarginBetween{}
+
 \begin{minipage}[t]{0.20\linewidth}
 	\begin{small}
-		\begin{spacing}{1.00}
+		\begin{spacing}\mainLineSpacing{}
 			\begin{flushright}
 				Sept. 2015--Sept. 2018
-				\\*
-				\vspace*{2.5pt}
+				\newLine{}
+				\mainMarginBottom{}
 				Hanover, NH
 			\end{flushright}
 		\end{spacing}
 	\end{small}
 \end{minipage}
-\hspace{4mm}
+\doubleColumnGap{}
 \begin{minipage}[t]{0.75\linewidth}
 	\begin{small}
-		\begin{spacing}{1.00}
+		\begin{spacing}\mainLineSpacing{}
 			\begin{flushleft}
 				\textbf{World Outlook Journal of International Affairs} --- Editor-in-Chief
-                \begin{itemize}[itemsep=0pt,topsep=2.5pt,leftmargin=*]
+				\mainMarginBottom{}
+                \begin{itemize}[itemsep=0pt,topsep=0pt,leftmargin=*]
 					\item Oversaw soliciting, editing, and publishing of 5-6 academic papers each term, written on international relations
 topics by undergraduates from around the world
 					\item Managed \$2,000 budget for publishing, marketing, panels, and lectures
@@ -295,31 +324,32 @@ topics by undergraduates from around the world
 	\end{small}
 \end{minipage}
 
-\vspace{-6ex}
-\vspace*{25pt}
+\sectionMarginBetweenRemove{}
+\sectionMarginBetweenAdd{}
+% \vspace*{25pt}
 
 \begin{Large}
 	\textsc{Computing}
 \end{Large}
-\vspace*{5pt}
+\sectionMarginTopBottom{}
 \hrule
-\vspace*{5pt}
+\sectionMarginTopBottom{}
 
 % Experience item: Languages
-\vspace{1ex}
+% \vspace{1ex}
 \begin{minipage}[t]{0.20\linewidth}
 	\begin{small}
-		\begin{spacing}{1.00}
+		\begin{spacing}\mainLineSpacing{}
 			\begin{flushright}
 				Interests
 			\end{flushright}
 		\end{spacing}
 	\end{small}
 \end{minipage}
-\hspace{4mm}
+\doubleColumnGap{}
 \begin{minipage}[t]{0.75\linewidth}
 	\begin{small}
-		\begin{spacing}{1.00}
+		\begin{spacing}\mainLineSpacing{}
 			\begin{flushleft}
 				computer vision, natural language processing, user experience, user interface
 			\end{flushleft}
@@ -327,20 +357,21 @@ topics by undergraduates from around the world
 	\end{small}
 \end{minipage}
 
-\vspace{-3ex}
+\withinSectionMarginBetween{}
+
 \begin{minipage}[t]{0.20\linewidth}
 	\begin{small}
-		\begin{spacing}{1.00}
+		\begin{spacing}\mainLineSpacing{}
 			\begin{flushright}
 				Languages
 			\end{flushright}
 		\end{spacing}
 	\end{small}
 \end{minipage}
-\hspace{4mm}
+\doubleColumnGap{}
 \begin{minipage}[t]{0.75\linewidth}
 	\begin{small}
-		\begin{spacing}{1.00}
+		\begin{spacing}\mainLineSpacing{}
 			\begin{flushleft}
 				CSS3, HTML5, Java, JavaScript, NoSQL, Python, R, SQL
 			\end{flushleft}
@@ -349,20 +380,21 @@ topics by undergraduates from around the world
 \end{minipage}
 
 
-\vspace{-3ex}
+\withinSectionMarginBetween{}
+
 \begin{minipage}[t]{0.20\linewidth}
 	\begin{small}
-		\begin{spacing}{1.00}
+		\begin{spacing}\mainLineSpacing{}
 			\begin{flushright}
 				Tools
 			\end{flushright}
 		\end{spacing}
 	\end{small}
 \end{minipage}
-\hspace{4mm}
+\doubleColumnGap{}
 \begin{minipage}[t]{0.75\linewidth}
 	\begin{small}
-		\begin{spacing}{1.00}
+		\begin{spacing}\mainLineSpacing{}
 			\begin{flushleft}
 				Git, \LaTeX, Sci-Kit Learn, Tensorflow
 			\end{flushleft}
