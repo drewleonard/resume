@@ -14,62 +14,6 @@
 
 \def\hrulefill{\leavevmode\leaders\hrule height 1.75pt\hfill\kern0pt}
 
-
-\usepackage{xparse}
-\ExplSyntaxOn
-\NewDocumentCommand{\xhrulefill}{O{}}
- {
-  \group_begin:
-  \severin_xhrulefill:n { #1 }
-  \group_end:
- }
-
-\keys_define:nn { severin/xhrulefill }
- {
-  height .dim_set:N    = \l_severin_xhrule_height_dim,
-  thickness .dim_set:N = \l_severin_xhrule_thickness_dim,
-  fill .skip_set:N     = \l_severin_xhrule_fill_skip,
-  height .initial:n    = 0pt,
-  thickness .initial:n = 0.4pt,
-  fill .initial:n      = 0pt plus 1fill,
- }
-
-\cs_new_protected:Nn \severin_xhrulefill:n
- {
-  \keys_set:nn { severin/xhrulefill } { #1 }
-  \leavevmode
-  \leaders\hrule 
-    height \dim_eval:n { \l_severin_xhrule_thickness_dim + \l_severin_xhrule_height_dim }
-    depth  \dim_eval:n { -\l_severin_xhrule_height_dim }
-  \skip_horizontal:N \l_severin_xhrule_fill_skip
-  \kern 0pt
-}
-\ExplSyntaxOff
-
-\usepackage{ulem}
-\normalem % use classical emph
-\usepackage{color}
-\usepackage{pgffor}
-\newcommand\myul[4]{% arg 1: underline depth; arg 2: underline thickness; arg 3: space around descenders in pt (!)
-  \begingroup%
-  \renewcommand\ULdepth{#1}%
-  \renewcommand\ULthickness{#2}%
-  \uline{\phantom{\smash{#4}}}%
-  \foreach \hshift in {0.0, 0.1, ..., #3}{%
-    \foreach \upshift in {-0.4, -0.3, ..., 1.0}{%
-      \llap{\color{white}\raisebox{\upshift0pt}[0pt]{#4}\hspace{\hshift0pt}}%
-      \llap{\color{white}\raisebox{\upshift0pt}[0pt]{#4}\hspace{-\hshift0pt}}%
-    }%
-  }%
-  \llap{#4}%
-  \endgroup%
-}
-
-
-
-
-
-
 \usepackage{fontspec} 
 \setmainfont[
  BoldFont={Calluna_Bold.otf},
@@ -83,7 +27,7 @@
 \usepackage{enumitem}
 \usepackage{latexsym}
 
-\geometry{top=0.4375in,right=0.4375in,left=0.4375in,bottom=0.4375in}
+\geometry{top=0.4375in,right=0.50in,left=0.30in,bottom=0.4375in}
 \raggedbottom
 \raggedright
 \begin{document}
@@ -91,7 +35,7 @@
 \begin{minipage}[b]{0.70\linewidth}
   \hspace*{9pt}{\fontsize{35}{42}\selectfont \textsc{Drew N. Leonard}}
 \end{minipage}
-\begin{minipage}[b]{0.29\linewidth}
+\begin{minipage}[b]{0.295\linewidth}
   \begin{flushright}
     \begin{small}
       Dartmouth College
@@ -300,7 +244,6 @@
 
 \sectionMarginBetweenRemove{}
 \sectionMarginBetweenAdd{}
-% \vspace*{25pt}
 
 \hspace*{11pt}\textsc{\fontsize{20}{24}\selectfont Leadership}\hspace*{14pt}\hrulefill
 \sectionMarginTopBottom{}
@@ -370,7 +313,6 @@
 
 \sectionMarginBetweenRemove{}
 \sectionMarginBetweenAdd{}
-% \vspace*{25pt}
 
 \hspace*{9pt}\textsc{\fontsize{20}{24}\selectfont Computing}\hspace*{14pt}\hrulefill
 \sectionMarginTopBottom{}
