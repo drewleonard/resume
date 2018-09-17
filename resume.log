@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.8.28)  13 SEP 2018 22:12
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.8.28)  16 SEP 2018 21:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -629,11 +629,11 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
 * h-part:(L,W,R)=(21.68121pt, 539.69167pt, 36.135pt)
-* v-part:(T,H,B)=(31.61812pt, 781.81061pt, 31.61812pt)
+* v-part:(T,H,B)=(31.61812pt, 798.97496pt, 14.45377pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
 * \textwidth=539.69167pt
-* \textheight=781.81061pt
+* \textheight=798.97496pt
 * \oddsidemargin=-50.58878pt
 * \evensidemargin=-50.58878pt
 * \topmargin=-77.65187pt
@@ -660,7 +660,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 Here is how much of TeX's memory you used:
  11352 strings out of 494476
  258496 string characters out of 6165662
- 344677 words of memory out of 5000000
+ 345673 words of memory out of 5000000
  15256 multiletter control sequences out of 15000+600000
  530400 words of font info for 38 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
